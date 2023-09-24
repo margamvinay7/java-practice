@@ -4,13 +4,13 @@ class Inheritance {
         System.out.println(i);
     }
 }
-class Mani extends Inheritance{
+class Hello extends Inheritance{
     public void in2(){
         int j=7;
         System.out.println(j);
     }
 }
-class Vinay extends Mani {
+class Vinay extends Hello {
     public void in3(){
         int k=3;
         System.out.println(k);
